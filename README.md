@@ -13,7 +13,7 @@
 ```javascript
 const david = {
     code: ["JavaScript", "TypeScript", "Python", "SQL"],
-    focus: ["Web Development", "Backend Systems", "Data Analysis"],
+    focus: ["Power BI Developer", " Fullstack Developer", " Data Analyst"],
     currentlyLearning: "Always something new",
     funFact: "I turn coffee into code and data into insights"
 };
