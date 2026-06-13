@@ -92,7 +92,7 @@ const david = {
 <div align="center">
 
 <a href="https://github.com/DataDave-Dev/REPO-1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DataDave-Dev&repo=REPO-1&theme=dracula&hide_border=true&bg_color=282A36&title_color=BD93F9&icon_color=FF79C6"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DataDave-Dev&repo=expertgroup-bi&theme=dracula&hide_border=true&bg_color=282A36&title_color=BD93F9&icon_color=FF79C6"/>
 </a>
 <a href="https://github.com/DataDave-Dev/REPO-2">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=DataDave-Dev&repo=REPO-2&theme=dracula&hide_border=true&bg_color=282A36&title_color=BD93F9&icon_color=FF79C6"/>
