@@ -87,24 +87,6 @@ const david = {
 
 ---
 
-### 🚀 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/DataDave-Dev/REPO-1">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DataDave-Dev&repo=expertgroup-bi&theme=dracula&hide_border=true&bg_color=282A36&title_color=BD93F9&icon_color=FF79C6"/>
-</a>
-<a href="https://github.com/DataDave-Dev/REPO-2">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=DataDave-Dev&repo=REPO-2&theme=dracula&hide_border=true&bg_color=282A36&title_color=BD93F9&icon_color=FF79C6"/>
-</a>
-
-</div>
-
-<!-- Reemplaza REPO-1 y REPO-2 con los nombres exactos de tus repos a destacar.
-     Puedes agregar más tarjetas copiando el bloque <a>...</a>. -->
-
----
-
 ### 🏆 Trophies
 
 <div align="center">
