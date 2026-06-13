@@ -87,16 +87,6 @@ const david = {
 
 ---
 
-### 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=DataDave-Dev&theme=dracula&no-frame=true&no-bg=true&column=7&margin-w=8"/>
-
-</div>
-
----
-
 <div align="center">
 
 ### 🤝 Let's Connect
