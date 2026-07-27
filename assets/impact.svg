@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Impact — open-source products shipped end to end; internal systems running daily across multiple companies; pricing approvals and margin reporting automated; multi-company SQL pipelines and dashboards.">
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171A26"/><stop offset="1" stop-color="#0C0E16"/>
+    </linearGradient>
+    <radialGradient id="g" cx="0.12" cy="0.05" r="0.85">
+      <stop offset="0" stop-color="#3157D5" stop-opacity="0.16"/><stop offset="1" stop-color="#3157D5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="n" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="c"><rect width="1000" height="250" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .cell { opacity: 0; animation: rise .65s cubic-bezier(.16,1,.3,1) forwards; }
+    .k1 { animation-delay: .06s } .k2 { animation-delay: .16s } .k3 { animation-delay: .26s } .k4 { animation-delay: .36s }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+    @media (prefers-reduced-motion: reduce) { .cell { animation: none; opacity: 1; transform: none } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="250" fill="url(#p)"/>
+    <rect width="1000" height="250" fill="url(#g)"/>
+
+    <g stroke="#FBF8FF" stroke-opacity="0.07" stroke-width="1">
+      <line x1="500" y1="40" x2="500" y2="210"/>
+      <line x1="56" y1="125" x2="944" y2="125"/>
+    </g>
+
+    <g class="cell k1">
+      <text class="mono" x="56" y="62" font-size="11" letter-spacing="3" fill="#7F9CFF">01 &#160;PRODUCTS SHIPPED</text>
+      <text class="mono" x="56" y="88" font-size="12.5" fill="#AEB0C2">Open-source tools designed and built end to end —</text>
+      <text class="mono" x="56" y="107" font-size="12.5" fill="#AEB0C2">interface, API, storage, release.</text>
+    </g>
+
+    <g class="cell k2">
+      <text class="mono" x="528" y="62" font-size="11" letter-spacing="3" fill="#5F82EE">02 &#160;LIVE OPERATIONS</text>
+      <text class="mono" x="528" y="88" font-size="12.5" fill="#AEB0C2">Internal systems running daily across the business</text>
+      <text class="mono" x="528" y="107" font-size="12.5" fill="#AEB0C2">units of a multi-company group.</text>
+    </g>
+
+    <g class="cell k3">
+      <text class="mono" x="56" y="158" font-size="11" letter-spacing="3" fill="#D95D39">03 &#160;AUTOMATION</text>
+      <text class="mono" x="56" y="184" font-size="12.5" fill="#AEB0C2">Pricing approvals and daily margin reporting run</text>
+      <text class="mono" x="56" y="203" font-size="12.5" fill="#AEB0C2">themselves. Manual load cut.</text>
+    </g>
+
+    <g class="cell k4">
+      <text class="mono" x="528" y="158" font-size="11" letter-spacing="3" fill="#8D90A6">04 &#160;DECISION DATA</text>
+      <text class="mono" x="528" y="184" font-size="12.5" fill="#AEB0C2">ETL pipelines and dashboards for sales, inventory</text>
+      <text class="mono" x="528" y="203" font-size="12.5" fill="#AEB0C2">and strategy.</text>
+    </g>
+
+    <rect width="1000" height="250" filter="url(#n)" opacity="0.05"/>
+    <rect width="1000" height="250" rx="14" fill="none" stroke="#FBF8FF" stroke-opacity="0.08"/>
+  </g>
+</svg>

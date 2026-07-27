@@ -1,144 +1,39 @@
-<div align="center">
-
-# Hey, I'm David 👋
-
-### Software Engineer focused on **Business Intelligence**, **Automation**, and **AI Systems**
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code\&weight=600\&size=22\&pause=1000\&color=BD93F9\&center=true\&vCenter=true\&width=800\&lines=Building+systems+that+automate+business+decisions;Turning+data+into+real+business+insights;Creating+developer+tools+and+AI-powered+solutions)](https://git.io/typing-svg)
-
-<a href="mailto:[EMAIL_ADDRESS]">
-<img src="https://img.shields.io/badge/-Email-FF5555?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<img src="https://komarev.com/ghpvc/?username=DataDave-Dev&color=BD93F9&style=for-the-badge&label=Profile+Views"/>
-
-</div>
+<img src="assets/hero.svg" width="100%" alt="David — Full-stack developer · Ingeniero Administrador de Sistemas · frontend, backend, data, AI systems"/>
 
 ---
 
-## 🚀 About Me
+**Full-stack developer.** I design and ship complete products — interface, API,
+database, deploy — not slices of one.
 
-I build software that helps businesses **make better decisions, automate operations, and scale intelligently**.
-
-My work lives at the intersection of:
-
-* **Software Engineering**
-* **Data Analytics**
-* **Business Intelligence**
-* **Artificial Intelligence**
-* **Automation Systems**
-
-Instead of just building apps, I focus on building **systems that reduce friction, improve workflows, and turn data into action**.
-
-From enterprise dashboards to AI-powered automation, I enjoy solving real operational problems with code.
+Next.js and Astro on the front. Node and Python on the back. SQL Server, PostgreSQL
+and SQLite underneath. And when a product has to answer business questions, I build
+the pipelines, dashboards, and AI tooling that make it answer them.
 
 ---
 
-## 🎯 What I Do
+### WORK
 
-* Build **full-stack applications** that solve real business problems
-* Design **data pipelines** and analytics systems
-* Create **Power BI dashboards** for strategic decision-making
-* Develop **internal AI tools** for business intelligence
-* Automate workflows using APIs, bots, and integrations
-* Build **open-source tools** for developers
+<a href="https://github.com/DataDave-Dev/becwright"><img src="assets/card-becwright.svg" width="48.5%" alt="becwright — deterministic pre-commit guardrails for AI-generated code"/></a>&nbsp;<a href="https://github.com/DataDave-Dev/weftmap"><img src="assets/card-weftmap.svg" width="48.5%" alt="weftmap — paste code, get an interactive call graph"/></a>
+<a href="https://github.com/DataDave-Dev/modlane"><img src="assets/card-modlane.svg" width="48.5%" alt="modlane — adaptive AI model router for coding agents"/></a>&nbsp;<a href="https://github.com/DataDave-Dev/valora-official"><img src="assets/card-valora.svg" width="48.5%" alt="valora — open-source personal finance app"/></a>
+
+<sub>Also in the shop: multi-company ETL pipelines, daily margin reporting with email alerts, and a WhatsApp pricing-approval bot — private, internal business systems.</sub>
 
 ---
 
-## 📌 Current Focus
+### IMPACT
 
-* 🚀 Building **Becwright**
-* 🤖 Creating AI-powered automation systems
-* 📊 Developing business decision intelligence tools
-* 🛠️ Building open-source developer infrastructure
-* 🔍 Researching better workflows between developers and AI
+<img src="assets/impact.svg" width="100%" alt="Products shipped end to end · internal systems running daily across a multi-company group · pricing and margin reporting automated · ETL pipelines and dashboards for sales, inventory and strategy"/>
 
 ---
 
-## 🛠 Tech Stack
+### STACK
 
-<div align="center">
-
-### Software Development
-
-![JavaScript](https://img.shields.io/badge/-JavaScript-282A36?style=for-the-badge\&logo=javascript\&logoColor=F7DF1E)
-![TypeScript](https://img.shields.io/badge/-TypeScript-282A36?style=for-the-badge\&logo=typescript\&logoColor=3178C6)
-![Python](https://img.shields.io/badge/-Python-282A36?style=for-the-badge\&logo=python\&logoColor=3776AB)
-![Node.js](https://img.shields.io/badge/-Node.js-282A36?style=for-the-badge\&logo=node.js\&logoColor=339933)
-![Next.js](https://img.shields.io/badge/-Next.js-282A36?style=for-the-badge\&logo=next.js\&logoColor=white)
-![Astro](https://img.shields.io/badge/-Astro-282A36?style=for-the-badge\&logo=astro\&logoColor=BC52EE)
-
-### Data & Intelligence
-
-![SQL Server](https://img.shields.io/badge/-SQL%20Server-282A36?style=for-the-badge\&logo=microsoft-sql-server\&logoColor=CC2927)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-282A36?style=for-the-badge\&logo=postgresql\&logoColor=4169E1)
-![Power BI](https://img.shields.io/badge/-Power%20BI-282A36?style=for-the-badge\&logo=powerbi\&logoColor=F2C811)
-![Pandas](https://img.shields.io/badge/-Pandas-282A36?style=for-the-badge\&logo=pandas\&logoColor=white)
-
-### Infrastructure & Tools
-
-![Docker](https://img.shields.io/badge/-Docker-282A36?style=for-the-badge\&logo=docker\&logoColor=2496ED)
-![Git](https://img.shields.io/badge/-Git-282A36?style=for-the-badge\&logo=git\&logoColor=F05032)
-![Vercel](https://img.shields.io/badge/-Vercel-282A36?style=for-the-badge\&logo=vercel\&logoColor=white)
-
-</div>
+<img src="assets/stack.svg" width="100%" alt="Frontend: TypeScript, JavaScript, React, Next.js, Astro · Backend: Node.js, Python, PostgreSQL, SQLite · Data: SQL Server, Power BI, Pandas · Infrastructure: Docker, Git, Vercel"/>
 
 ---
 
-## 🔥 Featured Projects
+### CONTACT
 
-### 🚀 Becwright
+[deleonalonso77@gmail.com](mailto:deleonalonso77@gmail.com) · [github.com/DataDave-Dev](https://github.com/DataDave-Dev)
 
-Open-source tool designed to improve developer workflows and solve real engineering problems.
-
-### 🤖 WhatsApp Pricing Bot
-
-Internal automation system for pricing approvals with business rules, margin validations, and SQL integrations.
-
-### 📊 Decision Support System
-
-A business intelligence platform focused on mobile-first dashboards and strategic data analysis.
-
-### 🛠 Prompt Lint
-
-Open-source static analysis tool for prompts to improve AI reliability and prompt engineering quality.
-
----
-
-## 📈 Impact
-
-* Built internal systems used for business operations and analytics
-* Automated pricing workflows reducing manual operational load
-* Designed SQL pipelines for multi-company reporting
-* Developed dashboards for sales, inventory, and strategic insights
-* Working on open-source tools focused on developer productivity
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=DataDave-Dev&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400"/>
-
-<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=DataDave-Dev&layout=compact&theme=dracula&hide_border=true&langs_count=8&cache_seconds=86400"/>
-
-<img src="https://streak-stats.demolab.com?user=DataDave-Dev&theme=dracula&hide_border=true"/>
-
-</div>
-
----
-
-<div align="center">
-
-## 🤝 Let's Connect
-
-<a href="mailto:deleonalonso77@gmail.com">
-<img src="https://img.shields.io/badge/-Email-FF5555?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-
-<br><br>
-
-*"Build things that solve real problems."*
-
-</div>
+<sub>Build things that solve real problems.</sub>

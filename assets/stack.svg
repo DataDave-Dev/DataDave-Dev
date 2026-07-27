@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="1000" height="230" role="img" aria-label="Stack — Frontend: TypeScript, JavaScript, React, Next.js, Astro. Backend: Node.js, Python, SQLite, PostgreSQL. Data: SQL Server, Power BI, Pandas. Infrastructure: Docker, Git, Vercel.">
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171A26"/><stop offset="1" stop-color="#0C0E16"/>
+    </linearGradient>
+    <radialGradient id="g" cx="0.5" cy="-0.1" r="0.9">
+      <stop offset="0" stop-color="#3157D5" stop-opacity="0.16"/><stop offset="1" stop-color="#3157D5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="n" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="c"><rect width="1000" height="230" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .col { opacity: 0; animation: rise .65s cubic-bezier(.16,1,.3,1) forwards; }
+    .k1 { animation-delay: .06s } .k2 { animation-delay: .16s } .k3 { animation-delay: .26s } .k4 { animation-delay: .36s }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+    @media (prefers-reduced-motion: reduce) { .col { animation: none; opacity: 1; transform: none } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="230" fill="url(#p)"/>
+    <rect width="1000" height="230" fill="url(#g)"/>
+
+    <g stroke="#FBF8FF" stroke-opacity="0.07" stroke-width="1">
+      <line x1="268" y1="42" x2="268" y2="196"/>
+      <line x1="504" y1="42" x2="504" y2="196"/>
+      <line x1="740" y1="42" x2="740" y2="196"/>
+    </g>
+
+    <g class="col k1">
+      <rect x="56" y="42" width="22" height="2" rx="1" fill="#7F9CFF"/>
+      <text class="mono" x="56" y="70" font-size="11" letter-spacing="3" fill="#7F9CFF">FRONTEND</text>
+      <text class="mono" x="56" y="102" font-size="13" fill="#C9CBDA">TypeScript</text>
+      <text class="mono" x="56" y="128" font-size="13" fill="#C9CBDA">JavaScript</text>
+      <text class="mono" x="56" y="154" font-size="13" fill="#C9CBDA">React</text>
+      <text class="mono" x="56" y="180" font-size="13" fill="#C9CBDA">Next.js</text>
+      <text class="mono" x="56" y="206" font-size="13" fill="#C9CBDA">Astro</text>
+    </g>
+
+    <g class="col k2">
+      <rect x="292" y="42" width="22" height="2" rx="1" fill="#5F82EE"/>
+      <text class="mono" x="292" y="70" font-size="11" letter-spacing="3" fill="#5F82EE">BACKEND</text>
+      <text class="mono" x="292" y="102" font-size="13" fill="#C9CBDA">Node.js</text>
+      <text class="mono" x="292" y="128" font-size="13" fill="#C9CBDA">Python</text>
+      <text class="mono" x="292" y="154" font-size="13" fill="#C9CBDA">PostgreSQL</text>
+      <text class="mono" x="292" y="180" font-size="13" fill="#C9CBDA">SQLite</text>
+    </g>
+
+    <g class="col k3">
+      <rect x="528" y="42" width="22" height="2" rx="1" fill="#D95D39"/>
+      <text class="mono" x="528" y="70" font-size="11" letter-spacing="3" fill="#D95D39">DATA</text>
+      <text class="mono" x="528" y="102" font-size="13" fill="#C9CBDA">SQL Server</text>
+      <text class="mono" x="528" y="128" font-size="13" fill="#C9CBDA">Power BI</text>
+      <text class="mono" x="528" y="154" font-size="13" fill="#C9CBDA">Pandas</text>
+    </g>
+
+    <g class="col k4">
+      <rect x="764" y="42" width="22" height="2" rx="1" fill="#8D90A6"/>
+      <text class="mono" x="764" y="70" font-size="11" letter-spacing="3" fill="#8D90A6">INFRASTRUCTURE</text>
+      <text class="mono" x="764" y="102" font-size="13" fill="#C9CBDA">Docker</text>
+      <text class="mono" x="764" y="128" font-size="13" fill="#C9CBDA">Git</text>
+      <text class="mono" x="764" y="154" font-size="13" fill="#C9CBDA">Vercel</text>
+    </g>
+
+    <rect width="1000" height="230" filter="url(#n)" opacity="0.05"/>
+    <rect width="1000" height="230" rx="14" fill="none" stroke="#FBF8FF" stroke-opacity="0.08"/>
+  </g>
+</svg>
