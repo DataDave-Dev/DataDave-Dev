@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190" role="img" aria-label="Open source contribution — La Velada del Año V, midudev/la-velada-web-oficial: 34 merged pull requests covering performance, accessibility, security, testing and UI redesign.">
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171A26"/><stop offset="1" stop-color="#0C0E16"/>
+    </linearGradient>
+    <radialGradient id="g" cx="0.9" cy="0.1" r="0.8">
+      <stop offset="0" stop-color="#3157D5" stop-opacity="0.30"/><stop offset="1" stop-color="#3157D5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FBF8FF"/><stop offset="1" stop-color="#7F9CFF"/>
+    </linearGradient>
+    <filter id="n" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="c"><rect width="1000" height="190" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .in { opacity: 0; animation: rise .65s cubic-bezier(.16,1,.3,1) forwards; }
+    .d1 { animation-delay: .06s } .d2 { animation-delay: .16s } .d3 { animation-delay: .26s } .d4 { animation-delay: .36s }
+    @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+    .track { stroke-dasharray: 232; stroke-dashoffset: 232; animation: draw .9s cubic-bezier(.16,1,.3,1) .45s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0 } }
+    @media (prefers-reduced-motion: reduce) { .in,.track { animation: none; opacity: 1; stroke-dashoffset: 0; transform: none } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="1000" height="190" fill="url(#p)"/>
+    <rect width="1000" height="190" fill="url(#g)"/>
+
+    <line x1="700" y1="40" x2="700" y2="150" stroke="#FBF8FF" stroke-opacity="0.07" stroke-width="1"/>
+
+    <text class="mono in d1" x="56" y="52" font-size="11" letter-spacing="3" fill="#7F9CFF">OPEN SOURCE CONTRIBUTION</text>
+    <text class="sans in d2" x="56" y="94" font-size="30" font-weight="700" letter-spacing="-0.6" fill="#FBF8FF">La Velada del Año V</text>
+    <text class="mono in d3" x="56" y="120" font-size="12" fill="#6B6D80">midudev/la-velada-web-oficial · ★ 1,854</text>
+    <text class="mono in d4" x="56" y="152" font-size="12.5" fill="#AEB0C2">performance · accessibility · security · testing · UI redesign</text>
+
+    <text class="sans in d2" x="944" y="106" font-size="62" font-weight="700" letter-spacing="-2" text-anchor="end" fill="url(#ink)">34</text>
+    <text class="mono in d3" x="944" y="132" font-size="11" letter-spacing="3" text-anchor="end" fill="#7F9CFF">MERGED PRS</text>
+
+    <g>
+      <line class="track" x1="712" y1="162" x2="944" y2="162" stroke="#7F9CFF" stroke-opacity="0.22" stroke-width="1.5"/>
+      <g class="in d4" fill="#7F9CFF" fill-opacity="0.5">
+        <circle cx="712" cy="162" r="3"/><circle cx="745" cy="162" r="3"/>
+        <circle cx="811" cy="162" r="3"/><circle cx="877" cy="162" r="3"/>
+        <circle cx="944" cy="162" r="3"/>
+      </g>
+      <g class="in d4" fill="#D95D39">
+        <circle cx="778" cy="162" r="4"/><circle cx="910" cy="162" r="4"/>
+      </g>
+    </g>
+
+    <rect width="1000" height="190" filter="url(#n)" opacity="0.05"/>
+    <rect width="1000" height="190" rx="14" fill="none" stroke="#FBF8FF" stroke-opacity="0.08"/>
+  </g>
+</svg>

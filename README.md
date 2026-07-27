@@ -20,6 +20,12 @@ the pipelines, dashboards, and AI tooling that make it answer them.
 
 ---
 
+### OPEN SOURCE
+
+<a href="https://github.com/midudev/la-velada-web-oficial/pulls?q=is%3Apr+author%3ADataDave-Dev+is%3Amerged"><img src="assets/velada.svg" width="100%" alt="La Velada del Año V — 34 merged pull requests into midudev/la-velada-web-oficial, covering performance, accessibility, security, testing and UI redesign"/></a>
+
+---
+
 ### IMPACT
 
 <img src="assets/impact.svg" width="100%" alt="Products shipped end to end · internal systems running daily across a multi-company group · pricing and margin reporting automated · ETL pipelines and dashboards for sales, inventory and strategy"/>
