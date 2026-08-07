@@ -1,70 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="1000" height="230" role="img" aria-label="Stack — Frontend: TypeScript, JavaScript, React, Next.js, Astro. Backend: Node.js, Python, SQLite, PostgreSQL. Data: SQL Server, Power BI, Pandas. Infrastructure: Docker, Git, Vercel.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" width="1000" height="230" role="img" aria-label="Sheet 05, parts list. Item 01 frontend: TypeScript, JavaScript, React, Next.js, Astro. Item 02 backend: Node.js, Python, PostgreSQL, SQLite. Item 03 data: SQL Server, Power BI, Pandas. Item 04 infrastructure: Docker, Git, Vercel.">
   <defs>
-    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#171A26"/><stop offset="1" stop-color="#0C0E16"/>
-    </linearGradient>
-    <radialGradient id="g" cx="0.5" cy="-0.1" r="0.9">
-      <stop offset="0" stop-color="#3157D5" stop-opacity="0.16"/><stop offset="1" stop-color="#3157D5" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="n" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+    <pattern id="st-gm" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#6FD4F5" stroke-opacity="0.055" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="st-gM" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#6FD4F5" stroke-opacity="0.09" stroke-width="0.8"/>
+    </pattern>
+    <filter id="st-paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
       <feColorMatrix type="saturate" values="0"/>
     </filter>
-    <clipPath id="c"><rect width="1000" height="230" rx="14"/></clipPath>
+    <clipPath id="st-clip"><rect width="1000" height="230" rx="3"/></clipPath>
   </defs>
+
   <style>
-    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-    .col { opacity: 0; animation: rise .65s cubic-bezier(.16,1,.3,1) forwards; }
-    .k1 { animation-delay: .06s } .k2 { animation-delay: .16s } .k3 { animation-delay: .26s } .k4 { animation-delay: .36s }
-    @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
-    @media (prefers-reduced-motion: reduce) { .col { animation: none; opacity: 1; transform: none } }
+    .m { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .dr { animation: dr 1.2s cubic-bezier(.16,1,.3,1) forwards }
+    @keyframes dr { to { stroke-dashoffset: 0 } }
+    .fx { opacity: 0; animation: fx .5s ease-out forwards }
+    @keyframes fx { to { opacity: 1 } }
+    .a1 { animation-delay: .22s } .r1 { animation-delay: .38s } .r2 { animation-delay: .50s }
+    .r3 { animation-delay: .62s } .r4 { animation-delay: .74s }
+    @media (prefers-reduced-motion: reduce) { .dr,.fx { animation: none; opacity: 1; stroke-dashoffset: 0 } }
   </style>
-  <g clip-path="url(#c)">
-    <rect width="1000" height="230" fill="url(#p)"/>
-    <rect width="1000" height="230" fill="url(#g)"/>
 
-    <g stroke="#FBF8FF" stroke-opacity="0.07" stroke-width="1">
-      <line x1="268" y1="42" x2="268" y2="196"/>
-      <line x1="504" y1="42" x2="504" y2="196"/>
-      <line x1="740" y1="42" x2="740" y2="196"/>
+  <g clip-path="url(#st-clip)">
+    <rect width="1000" height="230" fill="#0A2540"/>
+    <rect width="1000" height="230" fill="url(#st-gm)"/>
+    <rect width="1000" height="230" fill="url(#st-gM)"/>
+
+    <rect class="dr" x="10" y="10" width="980" height="210" fill="none" stroke="#4E9EC4" stroke-opacity="0.6" stroke-width="1.1"
+          stroke-dasharray="2380" stroke-dashoffset="2380"/>
+    <rect class="dr" x="18" y="18" width="964" height="194" fill="none" stroke="#4E9EC4" stroke-opacity="0.25" stroke-width="0.7"
+          stroke-dasharray="2316" stroke-dashoffset="2316"/>
+
+    <g class="m fx a1" font-size="9" letter-spacing="2.8" fill="#6B93B0">
+      <text x="40" y="40">SHEET 05 &#183; PARTS LIST</text>
+      <text x="960" y="40" text-anchor="end">4 ITEMS &#183; 15 COMPONENTS</text>
     </g>
 
-    <g class="col k1">
-      <rect x="56" y="42" width="22" height="2" rx="1" fill="#7F9CFF"/>
-      <text class="mono" x="56" y="70" font-size="11" letter-spacing="3" fill="#7F9CFF">FRONTEND</text>
-      <text class="mono" x="56" y="102" font-size="13" fill="#C9CBDA">TypeScript</text>
-      <text class="mono" x="56" y="128" font-size="13" fill="#C9CBDA">JavaScript</text>
-      <text class="mono" x="56" y="154" font-size="13" fill="#C9CBDA">React</text>
-      <text class="mono" x="56" y="180" font-size="13" fill="#C9CBDA">Next.js</text>
-      <text class="mono" x="56" y="206" font-size="13" fill="#C9CBDA">Astro</text>
+    <!-- table rows -->
+    <g class="fx r1"><rect x="40" y="74" width="920" height="32" fill="#6FD4F5" fill-opacity="0.035"/></g>
+    <g class="fx r3"><rect x="40" y="138" width="920" height="32" fill="#6FD4F5" fill-opacity="0.035"/></g>
+
+    <!-- table rules -->
+    <g stroke="#4E9EC4" stroke-width="0.8">
+      <path class="dr a1" d="M40 52h920" stroke-opacity="0.5" stroke-dasharray="920" stroke-dashoffset="920"/>
+      <path class="dr a1" d="M40 74h920" stroke-opacity="0.5" stroke-dasharray="920" stroke-dashoffset="920"/>
+      <path class="dr r2" d="M40 106h920" stroke-opacity="0.22" stroke-dasharray="920" stroke-dashoffset="920"/>
+      <path class="dr r3" d="M40 138h920" stroke-opacity="0.22" stroke-dasharray="920" stroke-dashoffset="920"/>
+      <path class="dr r4" d="M40 170h920" stroke-opacity="0.22" stroke-dasharray="920" stroke-dashoffset="920"/>
+      <path class="dr r4" d="M40 202h920" stroke-opacity="0.5" stroke-dasharray="920" stroke-dashoffset="920"/>
+      <path class="dr a1" d="M110 52v150" stroke-opacity="0.3" stroke-dasharray="150" stroke-dashoffset="150"/>
+      <path class="dr a1" d="M300 52v150" stroke-opacity="0.3" stroke-dasharray="150" stroke-dashoffset="150"/>
+      <path class="dr a1" d="M40 52v150" stroke-opacity="0.5" stroke-dasharray="150" stroke-dashoffset="150"/>
+      <path class="dr a1" d="M960 52v150" stroke-opacity="0.5" stroke-dasharray="150" stroke-dashoffset="150"/>
     </g>
 
-    <g class="col k2">
-      <rect x="292" y="42" width="22" height="2" rx="1" fill="#5F82EE"/>
-      <text class="mono" x="292" y="70" font-size="11" letter-spacing="3" fill="#5F82EE">BACKEND</text>
-      <text class="mono" x="292" y="102" font-size="13" fill="#C9CBDA">Node.js</text>
-      <text class="mono" x="292" y="128" font-size="13" fill="#C9CBDA">Python</text>
-      <text class="mono" x="292" y="154" font-size="13" fill="#C9CBDA">PostgreSQL</text>
-      <text class="mono" x="292" y="180" font-size="13" fill="#C9CBDA">SQLite</text>
+    <!-- header -->
+    <g class="m fx a1" font-size="8.5" letter-spacing="2.6" fill="#6B93B0">
+      <text x="54" y="67">ITEM</text>
+      <text x="122" y="67">GROUP</text>
+      <text x="314" y="67">COMPONENTS</text>
     </g>
 
-    <g class="col k3">
-      <rect x="528" y="42" width="22" height="2" rx="1" fill="#D95D39"/>
-      <text class="mono" x="528" y="70" font-size="11" letter-spacing="3" fill="#D95D39">DATA</text>
-      <text class="mono" x="528" y="102" font-size="13" fill="#C9CBDA">SQL Server</text>
-      <text class="mono" x="528" y="128" font-size="13" fill="#C9CBDA">Power BI</text>
-      <text class="mono" x="528" y="154" font-size="13" fill="#C9CBDA">Pandas</text>
+    <!-- rows -->
+    <g class="m fx r1">
+      <text x="54" y="95" font-size="12" letter-spacing="1" fill="#F5A65B">01</text>
+      <text x="122" y="95" font-size="12" letter-spacing="2.2" fill="#EAF7FF">FRONTEND</text>
+      <text x="314" y="95" font-size="12" letter-spacing="0.3" fill="#ABD5EC">TypeScript &#183; JavaScript &#183; React &#183; Next.js &#183; Astro</text>
+    </g>
+    <g class="m fx r2">
+      <text x="54" y="127" font-size="12" letter-spacing="1" fill="#F5A65B">02</text>
+      <text x="122" y="127" font-size="12" letter-spacing="2.2" fill="#EAF7FF">BACKEND</text>
+      <text x="314" y="127" font-size="12" letter-spacing="0.3" fill="#ABD5EC">Node.js &#183; Python &#183; PostgreSQL &#183; SQLite</text>
+    </g>
+    <g class="m fx r3">
+      <text x="54" y="159" font-size="12" letter-spacing="1" fill="#F5A65B">03</text>
+      <text x="122" y="159" font-size="12" letter-spacing="2.2" fill="#EAF7FF">DATA</text>
+      <text x="314" y="159" font-size="12" letter-spacing="0.3" fill="#ABD5EC">SQL Server &#183; Power BI &#183; Pandas</text>
+    </g>
+    <g class="m fx r4">
+      <text x="54" y="191" font-size="12" letter-spacing="1" fill="#F5A65B">04</text>
+      <text x="122" y="191" font-size="12" letter-spacing="2.2" fill="#EAF7FF">INFRA</text>
+      <text x="314" y="191" font-size="12" letter-spacing="0.3" fill="#ABD5EC">Docker &#183; Git &#183; Vercel</text>
     </g>
 
-    <g class="col k4">
-      <rect x="764" y="42" width="22" height="2" rx="1" fill="#8D90A6"/>
-      <text class="mono" x="764" y="70" font-size="11" letter-spacing="3" fill="#8D90A6">INFRASTRUCTURE</text>
-      <text class="mono" x="764" y="102" font-size="13" fill="#C9CBDA">Docker</text>
-      <text class="mono" x="764" y="128" font-size="13" fill="#C9CBDA">Git</text>
-      <text class="mono" x="764" y="154" font-size="13" fill="#C9CBDA">Vercel</text>
-    </g>
-
-    <rect width="1000" height="230" filter="url(#n)" opacity="0.05"/>
-    <rect width="1000" height="230" rx="14" fill="none" stroke="#FBF8FF" stroke-opacity="0.08"/>
+    <rect width="1000" height="230" filter="url(#st-paper)" opacity="0.05"/>
   </g>
 </svg>

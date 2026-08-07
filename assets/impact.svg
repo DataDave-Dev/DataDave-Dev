@@ -1,59 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Impact — open-source products shipped end to end; internal systems running daily across multiple companies; pricing approvals and margin reporting automated; multi-company SQL pipelines and dashboards.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 250" width="1000" height="250" role="img" aria-label="Sheet 04, general notes. Note 1, products shipped: open-source tools designed and built end to end — interface, API, storage, release. Note 2, live operations: internal systems running daily across the business units of a multi-company group. Note 3, automation: pricing approvals and daily margin reporting run themselves. Note 4, decision data: ETL pipelines and dashboards for sales, inventory and strategy.">
   <defs>
-    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#171A26"/><stop offset="1" stop-color="#0C0E16"/>
-    </linearGradient>
-    <radialGradient id="g" cx="0.12" cy="0.05" r="0.85">
-      <stop offset="0" stop-color="#3157D5" stop-opacity="0.16"/><stop offset="1" stop-color="#3157D5" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="n" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+    <pattern id="im-gm" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#6FD4F5" stroke-opacity="0.055" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="im-gM" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#6FD4F5" stroke-opacity="0.09" stroke-width="0.8"/>
+    </pattern>
+    <filter id="im-paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
       <feColorMatrix type="saturate" values="0"/>
     </filter>
-    <clipPath id="c"><rect width="1000" height="250" rx="14"/></clipPath>
+    <clipPath id="im-clip"><rect width="1000" height="250" rx="3"/></clipPath>
   </defs>
+
   <style>
-    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-    .cell { opacity: 0; animation: rise .65s cubic-bezier(.16,1,.3,1) forwards; }
-    .k1 { animation-delay: .06s } .k2 { animation-delay: .16s } .k3 { animation-delay: .26s } .k4 { animation-delay: .36s }
-    @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
-    @media (prefers-reduced-motion: reduce) { .cell { animation: none; opacity: 1; transform: none } }
+    .m { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .dr { animation: dr 1.2s cubic-bezier(.16,1,.3,1) forwards }
+    @keyframes dr { to { stroke-dashoffset: 0 } }
+    .fx { opacity: 0; animation: fx .5s ease-out forwards }
+    @keyframes fx { to { opacity: 1 } }
+    .a1 { animation-delay: .22s } .n1 { animation-delay: .36s } .n2 { animation-delay: .48s }
+    .n3 { animation-delay: .60s } .n4 { animation-delay: .72s }
+    @media (prefers-reduced-motion: reduce) { .dr,.fx { animation: none; opacity: 1; stroke-dashoffset: 0 } }
   </style>
-  <g clip-path="url(#c)">
-    <rect width="1000" height="250" fill="url(#p)"/>
-    <rect width="1000" height="250" fill="url(#g)"/>
 
-    <g stroke="#FBF8FF" stroke-opacity="0.07" stroke-width="1">
-      <line x1="500" y1="40" x2="500" y2="210"/>
-      <line x1="56" y1="125" x2="944" y2="125"/>
+  <g clip-path="url(#im-clip)">
+    <rect width="1000" height="250" fill="#0A2540"/>
+    <rect width="1000" height="250" fill="url(#im-gm)"/>
+    <rect width="1000" height="250" fill="url(#im-gM)"/>
+
+    <rect class="dr" x="8" y="8" width="984" height="234" fill="none" stroke="#4E9EC4" stroke-opacity="0.6" stroke-width="1.1"
+          stroke-dasharray="2436" stroke-dashoffset="2436"/>
+    <rect class="dr" x="15" y="15" width="970" height="220" fill="none" stroke="#4E9EC4" stroke-opacity="0.25" stroke-width="0.7"
+          stroke-dasharray="2380" stroke-dashoffset="2380"/>
+
+    <g class="m fx a1" font-size="9" letter-spacing="2.8" fill="#6B93B0">
+      <text x="40" y="42">SHEET 04 &#183; GENERAL NOTES</text>
+      <text x="960" y="42" text-anchor="end">APPLIES TO ALL SHEETS</text>
+    </g>
+    <path class="dr a1" d="M40 52h920" stroke="#4E9EC4" stroke-opacity="0.45" stroke-width="0.8"
+          stroke-dasharray="920" stroke-dashoffset="920"/>
+
+    <!-- NOTE 1 -->
+    <g class="fx n1">
+      <rect x="40" y="66" width="440" height="78" fill="none" stroke="#4E9EC4" stroke-opacity="0.22" stroke-width="0.8"/>
+      <path d="M40 66v78" stroke="#F5A65B" stroke-opacity="0.7" stroke-width="1.6"/>
+      <circle cx="72" cy="90" r="12" fill="none" stroke="#F5A65B" stroke-opacity="0.85" stroke-width="1"/>
+      <text class="m" x="72" y="94" font-size="10" fill="#F5A65B" text-anchor="middle">1</text>
+      <text class="m" x="98" y="95" font-size="11" letter-spacing="2.6" fill="#EAF7FF">PRODUCTS SHIPPED</text>
+      <g class="m" font-size="10.5" letter-spacing="0.2" fill="#ABD5EC">
+        <text x="98" y="118">Open-source tools designed and built end to end</text>
+        <text x="98" y="134">&#8212; interface, API, storage, release.</text>
+      </g>
     </g>
 
-    <g class="cell k1">
-      <text class="mono" x="56" y="62" font-size="11" letter-spacing="3" fill="#7F9CFF">01 &#160;PRODUCTS SHIPPED</text>
-      <text class="mono" x="56" y="88" font-size="12.5" fill="#AEB0C2">Open-source tools designed and built end to end —</text>
-      <text class="mono" x="56" y="107" font-size="12.5" fill="#AEB0C2">interface, API, storage, release.</text>
+    <!-- NOTE 2 -->
+    <g class="fx n2">
+      <rect x="520" y="66" width="440" height="78" fill="none" stroke="#4E9EC4" stroke-opacity="0.22" stroke-width="0.8"/>
+      <path d="M520 66v78" stroke="#F5A65B" stroke-opacity="0.7" stroke-width="1.6"/>
+      <circle cx="552" cy="90" r="12" fill="none" stroke="#F5A65B" stroke-opacity="0.85" stroke-width="1"/>
+      <text class="m" x="552" y="94" font-size="10" fill="#F5A65B" text-anchor="middle">2</text>
+      <text class="m" x="578" y="95" font-size="11" letter-spacing="2.6" fill="#EAF7FF">LIVE OPERATIONS</text>
+      <g class="m" font-size="10.5" letter-spacing="0.2" fill="#ABD5EC">
+        <text x="578" y="118">Internal systems running daily across the</text>
+        <text x="578" y="134">business units of a multi-company group.</text>
+      </g>
     </g>
 
-    <g class="cell k2">
-      <text class="mono" x="528" y="62" font-size="11" letter-spacing="3" fill="#5F82EE">02 &#160;LIVE OPERATIONS</text>
-      <text class="mono" x="528" y="88" font-size="12.5" fill="#AEB0C2">Internal systems running daily across the business</text>
-      <text class="mono" x="528" y="107" font-size="12.5" fill="#AEB0C2">units of a multi-company group.</text>
+    <!-- NOTE 3 -->
+    <g class="fx n3">
+      <rect x="40" y="152" width="440" height="78" fill="none" stroke="#4E9EC4" stroke-opacity="0.22" stroke-width="0.8"/>
+      <path d="M40 152v78" stroke="#F5A65B" stroke-opacity="0.7" stroke-width="1.6"/>
+      <circle cx="72" cy="176" r="12" fill="none" stroke="#F5A65B" stroke-opacity="0.85" stroke-width="1"/>
+      <text class="m" x="72" y="180" font-size="10" fill="#F5A65B" text-anchor="middle">3</text>
+      <text class="m" x="98" y="181" font-size="11" letter-spacing="2.6" fill="#EAF7FF">AUTOMATION</text>
+      <g class="m" font-size="10.5" letter-spacing="0.2" fill="#ABD5EC">
+        <text x="98" y="204">Pricing approvals and daily margin reporting</text>
+        <text x="98" y="220">run themselves. Manual load cut.</text>
+      </g>
     </g>
 
-    <g class="cell k3">
-      <text class="mono" x="56" y="158" font-size="11" letter-spacing="3" fill="#D95D39">03 &#160;AUTOMATION</text>
-      <text class="mono" x="56" y="184" font-size="12.5" fill="#AEB0C2">Pricing approvals and daily margin reporting run</text>
-      <text class="mono" x="56" y="203" font-size="12.5" fill="#AEB0C2">themselves. Manual load cut.</text>
+    <!-- NOTE 4 -->
+    <g class="fx n4">
+      <rect x="520" y="152" width="440" height="78" fill="none" stroke="#4E9EC4" stroke-opacity="0.22" stroke-width="0.8"/>
+      <path d="M520 152v78" stroke="#F5A65B" stroke-opacity="0.7" stroke-width="1.6"/>
+      <circle cx="552" cy="176" r="12" fill="none" stroke="#F5A65B" stroke-opacity="0.85" stroke-width="1"/>
+      <text class="m" x="552" y="180" font-size="10" fill="#F5A65B" text-anchor="middle">4</text>
+      <text class="m" x="578" y="181" font-size="11" letter-spacing="2.6" fill="#EAF7FF">DECISION DATA</text>
+      <g class="m" font-size="10.5" letter-spacing="0.2" fill="#ABD5EC">
+        <text x="578" y="204">ETL pipelines and dashboards for sales,</text>
+        <text x="578" y="220">inventory and strategy.</text>
+      </g>
     </g>
 
-    <g class="cell k4">
-      <text class="mono" x="528" y="158" font-size="11" letter-spacing="3" fill="#8D90A6">04 &#160;DECISION DATA</text>
-      <text class="mono" x="528" y="184" font-size="12.5" fill="#AEB0C2">ETL pipelines and dashboards for sales, inventory</text>
-      <text class="mono" x="528" y="203" font-size="12.5" fill="#AEB0C2">and strategy.</text>
-    </g>
-
-    <rect width="1000" height="250" filter="url(#n)" opacity="0.05"/>
-    <rect width="1000" height="250" rx="14" fill="none" stroke="#FBF8FF" stroke-opacity="0.08"/>
+    <rect width="1000" height="250" filter="url(#im-paper)" opacity="0.05"/>
   </g>
 </svg>

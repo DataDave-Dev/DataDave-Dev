@@ -1,57 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190" role="img" aria-label="Open source contribution — La Velada del Año V, midudev/la-velada-web-oficial: 34 merged pull requests covering performance, accessibility, security, testing and UI redesign.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 190" width="1000" height="190" role="img" aria-label="Contribution log, reference 3.1 — La Velada del Año V, midudev/la-velada-web-oficial, 1,863 stars: 34 merged pull requests covering performance, accessibility, security, testing and UI redesign.">
   <defs>
-    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#171A26"/><stop offset="1" stop-color="#0C0E16"/>
-    </linearGradient>
-    <radialGradient id="g" cx="0.9" cy="0.1" r="0.8">
-      <stop offset="0" stop-color="#3157D5" stop-opacity="0.30"/><stop offset="1" stop-color="#3157D5" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FBF8FF"/><stop offset="1" stop-color="#7F9CFF"/>
-    </linearGradient>
-    <filter id="n" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+    <pattern id="vd-gm" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#6FD4F5" stroke-opacity="0.055" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="vd-gM" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#6FD4F5" stroke-opacity="0.09" stroke-width="0.8"/>
+    </pattern>
+    <filter id="vd-paper" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
       <feColorMatrix type="saturate" values="0"/>
     </filter>
-    <clipPath id="c"><rect width="1000" height="190" rx="14"/></clipPath>
+    <clipPath id="vd-clip"><rect width="1000" height="190" rx="3"/></clipPath>
   </defs>
+
   <style>
-    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
-    .in { opacity: 0; animation: rise .65s cubic-bezier(.16,1,.3,1) forwards; }
-    .d1 { animation-delay: .06s } .d2 { animation-delay: .16s } .d3 { animation-delay: .26s } .d4 { animation-delay: .36s }
-    @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
-    .track { stroke-dasharray: 232; stroke-dashoffset: 232; animation: draw .9s cubic-bezier(.16,1,.3,1) .45s forwards; }
-    @keyframes draw { to { stroke-dashoffset: 0 } }
-    @media (prefers-reduced-motion: reduce) { .in,.track { animation: none; opacity: 1; stroke-dashoffset: 0; transform: none } }
+    .m { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .dr { animation: dr 1.2s cubic-bezier(.16,1,.3,1) forwards }
+    @keyframes dr { to { stroke-dashoffset: 0 } }
+    .fx { opacity: 0; animation: fx .5s ease-out forwards }
+    @keyframes fx { to { opacity: 1 } }
+    .a1 { animation-delay: .22s } .a2 { animation-delay: .34s }
+    .a3 { animation-delay: .46s } .a4 { animation-delay: .58s }
+    @media (prefers-reduced-motion: reduce) { .dr,.fx { animation: none; opacity: 1; stroke-dashoffset: 0 } }
   </style>
-  <g clip-path="url(#c)">
-    <rect width="1000" height="190" fill="url(#p)"/>
-    <rect width="1000" height="190" fill="url(#g)"/>
 
-    <line x1="700" y1="40" x2="700" y2="150" stroke="#FBF8FF" stroke-opacity="0.07" stroke-width="1"/>
+  <g clip-path="url(#vd-clip)">
+    <rect width="1000" height="190" fill="#0A2540"/>
+    <rect width="1000" height="190" fill="url(#vd-gm)"/>
+    <rect width="1000" height="190" fill="url(#vd-gM)"/>
 
-    <text class="mono in d1" x="56" y="52" font-size="11" letter-spacing="3" fill="#7F9CFF">OPEN SOURCE CONTRIBUTION</text>
-    <text class="sans in d2" x="56" y="94" font-size="30" font-weight="700" letter-spacing="-0.6" fill="#FBF8FF">La Velada del Año V</text>
-    <text class="mono in d3" x="56" y="120" font-size="12" fill="#6B6D80">midudev/la-velada-web-oficial · ★ 1,863</text>
-    <text class="mono in d4" x="56" y="152" font-size="12.5" fill="#AEB0C2">performance · accessibility · security · testing · UI redesign</text>
+    <rect class="dr" x="8" y="8" width="984" height="174" fill="none" stroke="#4E9EC4" stroke-opacity="0.6" stroke-width="1.1"
+          stroke-dasharray="2316" stroke-dashoffset="2316"/>
+    <rect class="dr" x="15" y="15" width="970" height="160" fill="none" stroke="#4E9EC4" stroke-opacity="0.25" stroke-width="0.7"
+          stroke-dasharray="2260" stroke-dashoffset="2260"/>
 
-    <text class="sans in d2" x="944" y="106" font-size="62" font-weight="700" letter-spacing="-2" text-anchor="end" fill="url(#ink)">34</text>
-    <text class="mono in d3" x="944" y="132" font-size="11" letter-spacing="3" text-anchor="end" fill="#7F9CFF">MERGED PRS</text>
+    <g class="m fx a1" font-size="9" letter-spacing="2.8" fill="#6B93B0">
+      <text x="40" y="40">SHEET 03 &#183; CONTRIBUTION LOG &#183; REF 3.1</text>
+      <text x="960" y="40" text-anchor="end">midudev/la-velada-web-oficial &#183; &#9733; 1,863</text>
+    </g>
+    <path class="dr a1" d="M40 50h920" stroke="#4E9EC4" stroke-opacity="0.45" stroke-width="0.8"
+          stroke-dasharray="920" stroke-dashoffset="920"/>
 
-    <g>
-      <line class="track" x1="712" y1="162" x2="944" y2="162" stroke="#7F9CFF" stroke-opacity="0.22" stroke-width="1.5"/>
-      <g class="in d4" fill="#7F9CFF" fill-opacity="0.5">
-        <circle cx="712" cy="162" r="3"/><circle cx="745" cy="162" r="3"/>
-        <circle cx="811" cy="162" r="3"/><circle cx="877" cy="162" r="3"/>
-        <circle cx="944" cy="162" r="3"/>
-      </g>
-      <g class="in d4" fill="#D95D39">
-        <circle cx="778" cy="162" r="4"/><circle cx="910" cy="162" r="4"/>
-      </g>
+    <text class="m fx a2" x="40" y="96" font-size="30" letter-spacing="1.4" fill="#EAF7FF">La Velada del A&#241;o V</text>
+
+    <g class="fx a2" stroke="#F5A65B" stroke-opacity="0.85" stroke-width="1">
+      <path d="M40 112h300"/>
+      <path d="M40 108v8M340 108v8"/>
     </g>
 
-    <rect width="1000" height="190" filter="url(#n)" opacity="0.05"/>
-    <rect width="1000" height="190" rx="14" fill="none" stroke="#FBF8FF" stroke-opacity="0.08"/>
+    <text class="m fx a3" x="40" y="140" font-size="12" letter-spacing="0.4" fill="#ABD5EC">performance &#183; accessibility &#183; security &#183; testing &#183; UI redesign</text>
+
+    <!-- stat cell -->
+    <g class="fx a3">
+      <rect x="800" y="58" width="160" height="90" fill="none" stroke="#4E9EC4" stroke-opacity="0.6" stroke-width="1"/>
+      <path d="M800 78h160" stroke="#4E9EC4" stroke-opacity="0.35" stroke-width="0.7"/>
+      <text class="m" x="812" y="72" font-size="8.5" letter-spacing="2.4" fill="#6B93B0">MERGED PRS</text>
+      <text class="m" x="812" y="128" font-size="42" letter-spacing="1" fill="#F5A65B">34</text>
+    </g>
+
+    <path class="dr a4" d="M40 158h920" stroke="#4E9EC4" stroke-opacity="0.3" stroke-width="0.7"
+          stroke-dasharray="920" stroke-dashoffset="920"/>
+    <g class="m fx a4" font-size="9" letter-spacing="2.4" fill="#6B93B0">
+      <text x="40" y="172">SCOPE: PERF &#183; A11Y &#183; SEC &#183; TESTS &#183; UI</text>
+      <text x="960" y="172" text-anchor="end" fill="#F5A65B">VIEW LOG &#8599;</text>
+    </g>
+
+    <rect width="1000" height="190" filter="url(#vd-paper)" opacity="0.05"/>
   </g>
 </svg>
