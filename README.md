@@ -23,6 +23,9 @@ the pipelines, dashboards, and AI tooling that make it answer them.
 ### OPEN SOURCE
 
 <a href="https://github.com/midudev/la-velada-web-oficial/pulls?q=is%3Apr+author%3ADataDave-Dev+is%3Amerged"><img src="assets/velada.svg" width="100%" alt="La Velada del Año V — 34 merged pull requests into midudev/la-velada-web-oficial, covering performance, accessibility, security, testing and UI redesign"/></a>
+<a href="https://github.com/midudev/spiderman-brand-new-day/pulls?q=is%3Apr+author%3ADataDave-Dev+is%3Amerged"><img src="assets/oss-spiderman.svg" width="48.5%" alt="Spider-Man: Brand New Day — 23 merged pull requests into midudev/spiderman-brand-new-day, covering accessibility, SEO and performance"/></a>&nbsp;<a href="https://github.com/basecamp/omarchy/pulls?q=is%3Apr+author%3ADataDave-Dev+is%3Amerged"><img src="assets/oss-omarchy.svg" width="48.5%" alt="Omarchy — merged pull request into basecamp/omarchy, a 24.4k-star Linux distribution, fixing the Wi-Fi passphrase prompt after a wrong saved password"/></a>
+
+<sub>58 merged pull requests into upstream repositories with 26k+ combined stars — accessibility, performance, SEO, security, testing and UI work.</sub>
 
 ---
 

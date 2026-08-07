@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 180" width="500" height="180" role="img" aria-label="Spider-Man: Brand New Day — midudev/spiderman-brand-new-day, 1,14 hundred stars: 23 merged pull requests covering accessibility, SEO and performance.">
+  <defs>
+    <linearGradient id="p" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171A26"/><stop offset="1" stop-color="#0C0E16"/>
+    </linearGradient>
+    <radialGradient id="g" cx="0.88" cy="0.05" r="0.75">
+      <stop offset="0" stop-color="#3157D5" stop-opacity="0.28"/><stop offset="1" stop-color="#3157D5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FBF8FF"/><stop offset="1" stop-color="#7F9CFF"/>
+    </linearGradient>
+    <filter id="n" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+    <clipPath id="c"><rect width="500" height="180" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .in { opacity: 0; animation: rise .6s cubic-bezier(.16,1,.3,1) forwards; }
+    .d1 { animation-delay: .05s } .d2 { animation-delay: .14s } .d3 { animation-delay: .23s }
+    @keyframes rise { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+    .rule { stroke-dasharray: 44; stroke-dashoffset: 44; animation: draw .7s cubic-bezier(.16,1,.3,1) .3s forwards; }
+    @keyframes draw { to { stroke-dashoffset: 0 } }
+    @media (prefers-reduced-motion: reduce) { .in,.rule { animation: none; opacity: 1; stroke-dashoffset: 0; transform: none } }
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="500" height="180" fill="url(#p)"/>
+    <rect width="500" height="180" fill="url(#g)"/>
+    <text class="mono in d1" x="28" y="42" font-size="11" letter-spacing="3" fill="#6B6D80">MIDUDEV/SPIDERMAN · ★ 114</text>
+    <text class="sans in d2" x="28" y="82" font-size="24" font-weight="700" letter-spacing="-0.4" fill="#FBF8FF">Spider-Man: Brand New Day</text>
+    <line class="rule" x1="28" y1="98" x2="72" y2="98" stroke="#7F9CFF" stroke-width="2" stroke-linecap="round"/>
+    <text class="mono in d3" x="28" y="128" font-size="12.5" fill="#AEB0C2">Accessibility, SEO and performance</text>
+    <text class="mono in d3" x="28" y="148" font-size="12.5" fill="#AEB0C2">across the official film site.</text>
+    <text class="mono in d2" x="472" y="118" font-size="10" letter-spacing="3" text-anchor="end" fill="#7F9CFF">MERGED PRS</text>
+    <text class="sans in d3" x="472" y="156" font-size="42" font-weight="700" letter-spacing="-1.5" text-anchor="end" fill="url(#ink)">23</text>
+    <rect width="500" height="180" filter="url(#n)" opacity="0.05"/>
+    <rect width="500" height="180" rx="14" fill="none" stroke="#FBF8FF" stroke-opacity="0.08"/>
+  </g>
+</svg>
